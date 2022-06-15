@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/css/main.ffa58cfc.css",
+    "main.js": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/main.a4d6b95d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Admir-Mehmedovic-Test-Junior-React-Dev/index.html",
+    "main.ffa58cfc.css.map": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/css/main.ffa58cfc.css.map",
+    "main.a4d6b95d.js.map": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/main.a4d6b95d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffa58cfc.css",
+    "static/js/main.a4d6b95d.js"
+  ]
+}
