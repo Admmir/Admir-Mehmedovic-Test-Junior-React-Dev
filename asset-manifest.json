@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/css/main.ffa58cfc.css",
-    "main.js": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/main.66d2c023.js",
+    "main.js": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/main.cffb3820.js",
     "static/js/787.28cb0dcd.chunk.js": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Admir-Mehmedovic-Test-Junior-React-Dev/index.html",
     "main.ffa58cfc.css.map": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/css/main.ffa58cfc.css.map",
-    "main.66d2c023.js.map": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/main.66d2c023.js.map",
+    "main.cffb3820.js.map": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/main.cffb3820.js.map",
     "787.28cb0dcd.chunk.js.map": "/Admir-Mehmedovic-Test-Junior-React-Dev/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffa58cfc.css",
-    "static/js/main.66d2c023.js"
+    "static/js/main.cffb3820.js"
   ]
 }
