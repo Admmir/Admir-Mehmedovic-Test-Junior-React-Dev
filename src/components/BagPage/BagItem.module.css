@@ -1,0 +1,143 @@
+.itemContainer {
+  max-height: fit-content;
+  width: 100%;
+  padding: 12px 0;
+  display: grid;
+  grid-template-columns: 1fr 45px 200px;
+}
+.attributes {
+  min-width: 63px;
+  height: 45px;
+  border: 1px solid #1d1f22;
+  margin: 5px 5px 5px 0;
+  max-width: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.attributeDivs {
+  display: flex;
+}
+
+.selectedAttribute {
+  min-width: 63px;
+  height: 45px;
+  border: 1px solid #1d1f22;
+  margin: 5px 5px 5px 0;
+  max-width: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: #1d1f22;
+}
+
+.colorWhite {
+  border: solid thin #6d6d6d !important;
+  min-width: 30px;
+  height: 30px;
+  margin: 5px 5px 5px 0;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+.color {
+  border: none;
+  min-width: 32px;
+  height: 32px;
+  margin: 5px 10px 5px 0;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+
+.selectedColor {
+  border: solid thin #ffffff !important;
+  outline: 2px solid #5ece7b;
+  min-width: 32px !important;
+  height: 32px !important;
+  margin: 5px 10px 5px 0;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.name {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+  padding-bottom: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.priceDiv {
+  font-weight: 700;
+  line-height: 26px;
+  font-size: larger;
+  margin-bottom: 0.5rem;
+}
+.attributeName {
+  font-weight: 700;
+  line-height: 18px;
+  font-size: small;
+}
+.buttonsAndQuantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.addOrRemoveButton {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #1d1f22;
+  background: #ffffff;
+  cursor: pointer;
+  align-items: center;
+}
+.displayedImg {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.divForImagesBtn {
+  width: 56px;
+  height: 24px;
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  left: 65%;
+  bottom: 56px;
+}
+.divForImagesBtn > button {
+  width: 24px;
+  background: rgba(0, 0, 0, 0.73);
+  border : none;
+  color: white
+}
+@media screen and (max-width: 700px) {
+  .itemContainer {
+    max-height: fit-content;
+    width: 100%;
+    padding: 12px 0;
+    display: grid;
+    grid-template-columns: 1fr 45px;
+  }
+}

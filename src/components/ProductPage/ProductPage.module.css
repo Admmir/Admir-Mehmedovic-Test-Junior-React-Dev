@@ -1,0 +1,261 @@
+.pageLayout {
+  display: grid;
+  grid-template-columns: 11fr 62fr 25fr;
+  column-gap: 20px;
+  width: 90%;
+  height: 650px;
+  margin: 5rem auto;
+}
+.selectedImg {
+  border: solid thin black;
+}
+.images {
+  display: inherit;
+  height: fit-content;
+}
+.images > div {
+  height: 88px;
+  width: 88px;
+  padding-bottom: 1rem;
+}
+.images div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.mainImgContainer {
+  max-height: 65vh;
+}
+.mainImg {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  max-height: 60vh;
+}
+.mainImg > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+  justify-content: center;
+  align-items: center;
+}
+.sizesAndColors {
+  display: flex;
+  align-items: center;
+}
+
+.description > b {
+  display: flex;
+  margin-top: 2rem;
+}
+.attribute {
+  min-width: 63px;
+  height: 45px;
+  border: 1px solid #1d1f22;
+  margin: 5px;
+  max-width: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.color {
+  border: none;
+  min-width: 32px;
+  height: 32px;
+  margin: 5px;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+.selectedColor {
+  border: solid thin #ffffff !important;
+  outline: 2px solid #5ece7b;
+  min-width: 32px !important;
+  height: 32px !important;
+  margin: 5px;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+.selectedAttribute {
+  min-width: 63px;
+  height: 45px;
+  border: 1px solid #1d1f22;
+  margin: 5px;
+  max-width: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: #1d1f22;
+}
+.colorWhite {
+  border: solid thin #6d6d6d !important;
+  min-width: 30px;
+  height: 30px;
+  margin: 5px;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+.price {
+  font-size: 23px;
+}
+.addToCartBtn {
+  width: 100%;
+  margin: 1.5rem auto;
+  display: flex;
+  border: none;
+  background: #5ece7b;
+  color: white;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+}
+
+.outStock {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: flex;
+  z-index: 1;
+  bottom: 100%;
+  align-items: center;
+}
+.outStock > h2 {
+  font-weight: 400;
+  line-height: 160%;
+  color: #6d6e70;
+  margin: auto;
+  display: flex;
+}
+.disabledBtn {
+  background-color: gray;
+  width: 100%;
+  margin: 1.5rem auto;
+  display: flex;
+  border: none;
+  color: white;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+.description {
+  width: 292px;
+}
+
+.success {
+  color: #5ece7b;
+  margin-top: 1rem;
+}
+.danger {
+  color: red;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 1181px) and (max-width: 1360px) {
+  .pageLayout {
+    grid-template-columns: 7fr 3fr;
+    display: grid;
+    column-gap: 20px;
+  }
+  .images {
+    height: 100px;
+    grid-row-start: 2;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-row-end: 3;
+  }
+  .images > div {
+    height: 88px;
+    width: 88px;
+    margin-right: 5px;
+  }
+  .mainImg {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    max-height: 60vh;
+  }
+  .mainImg > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .images div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .description {
+    width: 100%;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .pageLayout {
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    width: 90%;
+    display: grid;
+    margin: 2rem auto;
+  }
+  .images {
+    height: fit-content;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .images > div {
+    height: 88px;
+    width: 88px;
+    padding: 5px;
+  }
+  .images div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .mainImg {
+    width: 100%;
+    height: 100%;
+    max-height: 60vh;
+  }
+  .mainImg > img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+  }
+  .description {
+    width: 100%;
+    width: 100%;
+    height: fit-content;
+    grid-row-start: 3;
+  }
+}

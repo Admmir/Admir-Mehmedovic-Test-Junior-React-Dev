@@ -1,0 +1,18 @@
+body {
+  font-family: "Raleway";
+  margin: 0;
+  padding:0
+}
+h3{
+  margin: 0;
+}
+p{
+  margin: 0;
+  line-height: 25.6px;
+}
+span{
+  line-height: 25.6px;
+}
+button {
+  cursor: pointer;
+}
