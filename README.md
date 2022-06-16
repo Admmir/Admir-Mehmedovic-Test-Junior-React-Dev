@@ -5,3 +5,5 @@ For this project I used class components just to prove a point. Technologies use
 Graphql is hosted on heroku.
 
 This is e-commerce website based on dummy data and minimalistic design
+
+//other branch deleted
